@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3b218a6e-3eef-4286-9779-99132b56d768" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/map.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/map_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,14 +12,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ts$TestMap_Get_in_ts.out" NAME="TestMap_Get in ts Coverage Results" MODIFIED="1542032051904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="355" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1460216642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="355" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="355" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -27,17 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/go.mod">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="558">
+              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -45,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/map_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="608">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -67,11 +103,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/map_test.go" />
-        <option value="$PROJECT_DIR$/map.go" />
         <option value="$PROJECT_DIR$/go.mod" />
-        <option value="$PROJECT_DIR$/map.go" />
         <option value="$PROJECT_DIR$/map_test.go" />
+        <option value="$PROJECT_DIR$/map_test.go" />
+        <option value="$PROJECT_DIR$/map.go" />
+        <option value="$PROJECT_DIR$/map.go" />
       </list>
     </option>
   </component>
@@ -116,7 +152,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -135,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMap_Set in ts">
+  <component name="RunManager" selected="Go Test.TestMap_ForEach in ts">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="ts" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -158,6 +194,39 @@
       <pattern value="^BenchmarkTsMap_Set$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestMap_Delete in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMap_Delete$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMap_ForEach in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMap_ForEach$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMap_Get in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="ts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMap_Get$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestMap_Set in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ts" />
       <working_directory value="$PROJECT_DIR$" />
@@ -170,98 +239,78 @@
       <pattern value="^TestMap_Set$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSyncMap_Set in benchmark" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="benchmark" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSyncMap_Set$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestTsMap_Set in benchmark" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="benchmark" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestTsMap_Set$" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Test.BenchmarkTsMap_Set in benchmark" />
-      <item itemvalue="Go Test.TestTsMap_Set in benchmark" />
-      <item itemvalue="Go Test.TestSyncMap_Set in benchmark" />
       <item itemvalue="Go Test.TestMap_Set in ts" />
+      <item itemvalue="Go Test.TestMap_Get in ts" />
+      <item itemvalue="Go Test.TestMap_Delete in ts" />
+      <item itemvalue="Go Test.TestMap_ForEach in ts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestMap_ForEach in ts" />
+        <item itemvalue="Go Test.TestMap_Delete in ts" />
+        <item itemvalue="Go Test.TestMap_Get in ts" />
         <item itemvalue="Go Test.TestMap_Set in ts" />
         <item itemvalue="Go Test.BenchmarkTsMap_Set in benchmark" />
-        <item itemvalue="Go Test.TestTsMap_Set in benchmark" />
-        <item itemvalue="Go Test.TestSyncMap_Set in benchmark" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 01h 00m 06s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 36m 06s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 01h 02m 30s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 02s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 01h 10m 53s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 04s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 01h 11m 18s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 26s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTsMap_Set_in_benchmark - 2018.11.10 at 01h 11m 39s.xml">
-      <configuration name="TestTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 35s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestTsMap_Set_in_benchmark - 2018.11.10 at 01h 11m 43s.xml">
-      <configuration name="TestTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 44m 39s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 10h 49m 20s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 44m 50s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 10h 50m 18s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 11s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="BenchmarkTsMap_Set_in_benchmark - 2018.11.10 at 10h 51m 21s.xml">
-      <configuration name="BenchmarkTsMap_Set in benchmark" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 54s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_Set_in_ts - 2018.11.12 at 21h 45m 27s.xml">
-      <configuration name="TestMap_Set in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 56s.xml">
+      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-26" width="1920" height="1106" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18770054" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.18983957" />
+      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" visible="true" weight="0.18983957" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295099" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38790408" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32783505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38659793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30448383" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30390143" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49847096" weight="0.32994652" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50152904" side_tool="true" weight="0.32994652" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,17 +318,6 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/map_test.go</url>
-          <line>7</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -305,24 +343,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/runtime/panic.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="587" selection-start-line="587" selection-end-line="587" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/emirpasic/gods/maps/hashmap/hashmap.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -333,10 +357,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="764" selection-start-line="764" selection-end-line="764" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="680" selection-start-line="680" selection-end-line="680" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/map_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="608">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>

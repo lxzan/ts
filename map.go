@@ -50,3 +50,32 @@ func (this *Map) Get(k string) (v interface{}, exist bool) {
 	this.mutex[index].RUnlock()
 	return
 }
+
+func (this *Map) Length() int64 {
+	return this.len
+}
+
+func (this *Map) Delete(k string) (exist bool) {
+	if k == "" {
+		panic("key can't be empty")
+	}
+	var index = int(k[0]) % this.size
+	this.mutex[index].Lock()
+	_, exist = this.data[index][k]
+	if exist {
+		delete(this.data[index], k)
+		atomic.AddInt64(&this.len, -1)
+	}
+	this.mutex[index].Unlock()
+	return
+}
+
+func (this *Map) ForEach(callback func(k string, v interface{})) {
+	for i, c := range this.data {
+		this.mutex[i].RLock()
+		for key, value := range c {
+			callback(key, value)
+		}
+		this.mutex[i].RUnlock()
+	}
+}

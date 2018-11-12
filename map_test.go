@@ -14,3 +14,22 @@ func TestMap_Get(t *testing.T) {
 	name, _ := c.Get("name")
 	println(name)
 }
+
+func TestMap_Delete(t *testing.T) {
+	var c = NewMap()
+	c.Set("name", "caster")
+	c.Set("age", 12)
+	c.Delete("name")
+	println(c)
+}
+
+func TestMap_ForEach(t *testing.T) {
+	var c = NewMap()
+	c.Set("name", "caster")
+	c.Set("age", 12)
+	c.Set("sex", "male")
+	c.Set("smoke", false)
+	c.ForEach(func(k string, v interface{}) {
+		print(k, v)
+	})
+}
