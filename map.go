@@ -79,3 +79,14 @@ func (this *Map) ForEach(callback func(k string, v interface{})) {
 		this.mutex[i].RUnlock()
 	}
 }
+
+func (this *Map) Clear() {
+	for i, c := range this.data {
+		this.mutex[i].Lock()
+		for key, _ := range c {
+			delete(this.data[i], key)
+			atomic.AddInt64(&this.len, -1)
+		}
+		this.mutex[i].Unlock()
+	}
+}

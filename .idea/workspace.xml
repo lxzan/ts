@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b218a6e-3eef-4286-9779-99132b56d768" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/list.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.go" beforeDir="false" afterPath="$PROJECT_DIR$/map.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/map_test.go" afterDir="false" />
@@ -66,23 +68,77 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1118711309">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="863" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="863" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.go.postfix.template.usages.trigger" />
+      <usages-collector id="statistics.vcs.git.usages" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            <state relative-caret-position="578">
+              <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+              <folding>
+                <element signature="e#12#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/map_test.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="748">
+              <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/list_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -108,6 +164,8 @@
         <option value="$PROJECT_DIR$/map_test.go" />
         <option value="$PROJECT_DIR$/map.go" />
         <option value="$PROJECT_DIR$/map.go" />
+        <option value="$PROJECT_DIR$/list.go" />
+        <option value="$PROJECT_DIR$/list_test.go" />
       </list>
     </option>
   </component>
@@ -128,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -140,6 +197,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +210,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestMap_ForEach in ts">
+  <component name="RunManager" selected="Go Test.BenchmarkStack_Push in github.com/lxzan/ts">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="ts" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -182,27 +240,51 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="BenchmarkTsMap_Set in benchmark" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ts" />
       <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <framework value="gobench" />
       <kind value="PACKAGE" />
-      <package value="benchmark" />
+      <package value="github.com/lxzan/ts" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^BenchmarkTsMap_Set$" />
+      <pattern value="^BenchmarkStack_Push$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMap_Delete in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestList_Push in github.com/lxzan/ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="ts" />
       <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="ts" />
+      <package value="github.com/lxzan/ts" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMap_Delete$" />
+      <pattern value="^TestList_Push$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMap_Clear in github.com/lxzan/ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lxzan/ts" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestMap_Clear$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestMap_Clear in map_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="ts" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/map_test.go" />
+      <pattern value="^TestMap_Clear$" />
       <method v="2" />
     </configuration>
     <configuration name="TestMap_ForEach in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -216,96 +298,74 @@
       <pattern value="^TestMap_ForEach$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestMap_Get in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ts" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMap_Get$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestMap_Set in ts" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="ts" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="ts" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestMap_Set$" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Go Test.BenchmarkTsMap_Set in benchmark" />
-      <item itemvalue="Go Test.TestMap_Set in ts" />
-      <item itemvalue="Go Test.TestMap_Get in ts" />
-      <item itemvalue="Go Test.TestMap_Delete in ts" />
       <item itemvalue="Go Test.TestMap_ForEach in ts" />
+      <item itemvalue="Go Test.TestMap_Clear in map_test.go" />
+      <item itemvalue="Go Test.TestMap_Clear in github.com/lxzan/ts" />
+      <item itemvalue="Go Test.TestList_Push in github.com/lxzan/ts" />
+      <item itemvalue="Go Test.BenchmarkStack_Push in github.com/lxzan/ts" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.BenchmarkStack_Push in github.com/lxzan/ts" />
+        <item itemvalue="Go Test.TestList_Push in github.com/lxzan/ts" />
+        <item itemvalue="Go Test.TestMap_Clear in github.com/lxzan/ts" />
+        <item itemvalue="Go Test.TestMap_Clear in map_test.go" />
         <item itemvalue="Go Test.TestMap_ForEach in ts" />
-        <item itemvalue="Go Test.TestMap_Delete in ts" />
-        <item itemvalue="Go Test.TestMap_Get in ts" />
-        <item itemvalue="Go Test.TestMap_Set in ts" />
-        <item itemvalue="Go Test.BenchmarkTsMap_Set in benchmark" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 36m 06s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestList_Push_in_github_com_lxzan_ts - 2018.11.14 at 09h 59m 28s.xml">
+      <configuration name="TestList_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 02s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestList_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 00m 45s.xml">
+      <configuration name="TestList_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 04s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestList_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 01m 14s.xml">
+      <configuration name="TestList_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 26s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestList_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 19m 39s.xml">
+      <configuration name="TestList_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 37m 35s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestList_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 26m 04s.xml">
+      <configuration name="TestList_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 44m 39s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkStack_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 26m 04s.xml">
+      <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 44m 50s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkStack_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 26m 10s.xml">
+      <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 11s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkStack_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 27m 03s.xml">
+      <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 54s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkStack_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 27m 16s.xml">
+      <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestMap_ForEach_in_ts - 2018.11.12 at 22h 45m 56s.xml">
-      <configuration name="TestMap_ForEach in ts" configurationId="GoTestRunConfiguration" />
+    <history-entry file="BenchmarkStack_Push_in_github_com_lxzan_ts - 2018.11.14 at 10h 29m 25s.xml">
+      <configuration name="BenchmarkStack_Push in github.com/lxzan/ts" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-26" width="1920" height="1106" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4969325" visible="true" weight="0.18983957" />
-      <window_info id="Structure" order="1" sideWeight="0.5030675" side_tool="true" visible="true" weight="0.18983957" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49518073" visible="true" weight="0.19527897" />
+      <window_info id="Structure" order="1" sideWeight="0.5048193" side_tool="true" weight="0.19241774" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32783505" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38659793" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38554215" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30390143" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30361447" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Code comment" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -318,6 +378,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -343,13 +406,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/emirpasic/gods/maps/hashmap/hashmap.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/emirpasic/gods/maps/hashmap/hashmap.go" />
     <entry file="file://$PROJECT_DIR$/go.mod">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -371,17 +428,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map.go">
+    <entry file="file://$PROJECT_DIR$/list_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="69" column="10" lean-forward="true" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/map_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="748">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="37" column="4" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+          <folding>
+            <element signature="e#12#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
